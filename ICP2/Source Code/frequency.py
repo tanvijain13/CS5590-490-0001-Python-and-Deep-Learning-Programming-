@@ -1,6 +1,6 @@
 text = open("sample.txt", "r") # Open the file in read mode
 d = dict() # Creating empty dictionary
-#reading the words in file
+# reading the words in file
 for line in text:
     # Remove the leading spaces and newline character
     line = line.strip()
