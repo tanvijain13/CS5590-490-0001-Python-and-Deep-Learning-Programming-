@@ -1,3 +1,4 @@
+import sys
 text = open("sample.txt", "r") # Open the file in read mode
 d = dict() # Creating empty dictionary
 # reading the words in file
@@ -14,5 +15,6 @@ for line in text:
         else:
             d[word] = 1 # Add the word to dictionary with count 1
 # Print the contents of dictionary
+sys.stdout = open("output.txt", "w")
 for key in list(d.keys()):
     print(key, ":", d[key])

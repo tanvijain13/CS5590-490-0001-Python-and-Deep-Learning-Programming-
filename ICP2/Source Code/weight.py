@@ -1,4 +1,4 @@
-N= int(input("Enter number of students"))
+N = int(input("Enter number of students"))
 wt_lbs=list()
 for _ in range(N):
     # appending weight in lbs in the list
